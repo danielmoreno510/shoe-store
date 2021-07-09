@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component GIVEN a set of valid props WHEN the component is rendered with props THEN should display a regular button 1`] = `
+<ForwardRef
+  onPress={[MockFunction]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "height": 56,
+        "justifyContent": "center",
+      },
+      Object {
+        "color": "red",
+      },
+      Object {
+        "backgroundColor": "#f1b30a",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "white",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        },
+        Object {
+          "color": "red",
+        },
+      ]
+    }
+  >
+    Test
+  </Text>
+</ForwardRef>
+`;
+
+exports[`Button component GIVEN a set of valid props WHEN the component is rendered without props THEN should display a regular button 1`] = `
+<ForwardRef
+  onPress={[MockFunction]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "height": 56,
+        "justifyContent": "center",
+      },
+      Object {},
+      Object {
+        "backgroundColor": "#f1b30a",
+      },
+    ]
+  }
+/>
+`;

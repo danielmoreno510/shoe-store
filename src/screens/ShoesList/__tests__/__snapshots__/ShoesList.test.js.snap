@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoesList component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular ShoesList 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "padding": 37.5,
+    }
+  }
+>
+  <Component
+    color="#f1b30a"
+  />
+</View>
+`;

@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular Menu 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <ScrollView>
+    <View
+      key="Home"
+      style={
+        Object {
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <ForwardRef
+        onPress={[Function]}
+        style={
+          Object {
+            "paddingVertical": 12,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Component
+            name="home"
+            type="MaterialIcons"
+          />
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontSize": 16,
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            Home
+          </Text>
+        </View>
+      </ForwardRef>
+    </View>
+    <View
+      key="Shoes List"
+      style={
+        Object {
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <ForwardRef
+        onPress={[Function]}
+        style={
+          Object {
+            "paddingVertical": 12,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Component
+            name="shopping-bag"
+            type="MaterialIcons"
+          />
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontSize": 16,
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            Shoes List
+          </Text>
+        </View>
+      </ForwardRef>
+    </View>
+    <View
+      key="Cart"
+      style={
+        Object {
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <ForwardRef
+        onPress={[Function]}
+        style={
+          Object {
+            "paddingVertical": 12,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Component
+            name="shopping-cart"
+            type="MaterialIcons"
+          />
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontSize": 16,
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            Cart
+          </Text>
+        </View>
+      </ForwardRef>
+    </View>
+    <View
+      key="About"
+      style={
+        Object {
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <ForwardRef
+        onPress={[Function]}
+        style={
+          Object {
+            "paddingVertical": 12,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Component
+            name="info"
+            type="MaterialIcons"
+          />
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontSize": 16,
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            About
+          </Text>
+        </View>
+      </ForwardRef>
+    </View>
+  </ScrollView>
+</ForwardRef(SafeAreaView)>
+`;

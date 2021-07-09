@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoeInfo component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular ShoeInfo 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 22,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Blazer Low Platform
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 18,
+        }
+      }
+    >
+      Nike
+    </Text>
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "flexDirection": "row",
+          "marginTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+          }
+        }
+      >
+        Size: 
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "#f1b30a",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "width": 40,
+            }
+          }
+        >
+          <mockConstructor
+            items={
+              Array [
+                Object {
+                  "label": "4.5",
+                  "quantity": 1,
+                  "value": 4.5,
+                },
+                Object {
+                  "label": "5",
+                  "quantity": 2,
+                  "value": 5,
+                },
+                Object {
+                  "label": "5.5",
+                  "quantity": 9,
+                  "value": 5.5,
+                },
+                Object {
+                  "label": "6",
+                  "quantity": 7,
+                  "value": 6,
+                },
+                Object {
+                  "label": "6.5",
+                  "quantity": 5,
+                  "value": 6.5,
+                },
+                Object {
+                  "label": "7",
+                  "quantity": 4,
+                  "value": 7,
+                },
+              ]
+            }
+            onValueChange={[Function]}
+            style={
+              Object {
+                "inputAndroid": Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                },
+                "inputIOS": Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                },
+              }
+            }
+            value={4.5}
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+            }
+          }
+        >
+           1U
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#f1b30a",
+          "fontSize": 28,
+          "fontWeight": "bold",
+          "marginTop": 12,
+        }
+      }
+    >
+      $200
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <CustomButton
+        onPress={[Function]}
+        styleButton={
+          Object {
+            "margin": 12,
+            "width": 54,
+          }
+        }
+        testID="addToCart"
+      >
+        <Component
+          name="shopping-cart"
+          style={
+            Object {
+              "color": "white",
+            }
+          }
+          type="MaterialIcons"
+        />
+      </CustomButton>
+      <CustomButton
+        onPress={[Function]}
+        styleButton={
+          Object {
+            "margin": 12,
+            "width": 54,
+          }
+        }
+        testID="showProduct"
+      >
+        <Component
+          name="visibility"
+          style={
+            Object {
+              "color": "white",
+            }
+          }
+          type="MaterialIcons"
+        />
+      </CustomButton>
+    </View>
+    <Text>
+      Date: 2021-06-01
+    </Text>
+  </View>
+</View>
+`;

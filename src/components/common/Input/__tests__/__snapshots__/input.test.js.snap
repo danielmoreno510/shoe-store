@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular Input 1`] = `
+<TextInput
+  allowFontScaling={true}
+  keyboardType="default"
+  onBlur={[Function]}
+  onChangeText={[Function]}
+  onFocus={[Function]}
+  placeholder="test"
+  placeholderTextColor="#aaaaaa"
+  rejectResponderTermination={true}
+  secureTextEntry={true}
+  style={
+    Array [
+      Object {},
+      Object {
+        "borderBottomColor": "#f1b30a",
+        "borderBottomWidth": 2,
+        "fontSize": 18,
+      },
+    ]
+  }
+  underlineColorAndroid="transparent"
+  value="test"
+/>
+`;

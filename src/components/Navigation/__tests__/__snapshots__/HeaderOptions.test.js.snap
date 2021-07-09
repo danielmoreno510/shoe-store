@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderOptions component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular HeaderOptions 1`] = `
+<ForwardRef
+  onPress={[MockFunction]}
+  style={
+    Array [
+      Object {
+        "marginLeft": 12,
+      },
+    ]
+  }
+>
+  <Component
+    name="menu"
+    style={
+      Object {
+        "color": "#f1b30a",
+      }
+    }
+    type="MaterialIcons"
+  />
+</ForwardRef>
+`;
+
+exports[`HeaderOptions component GIVEN a set of valid props WHEN the component is rendered with badge THEN should display a regular HeaderOptions 1`] = `
+<ForwardRef
+  onPress={[MockFunction]}
+  style={
+    Array [
+      Object {
+        "marginRight": 12,
+      },
+    ]
+  }
+>
+  <Component
+    style={
+      Object {
+        "height": 22,
+        "marginBottom": -12,
+        "marginLeft": 14,
+        "width": 22,
+        "zIndex": 1,
+      }
+    }
+    warning={true}
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+    >
+      1
+    </Text>
+  </Component>
+  <Component
+    name="shopping-cart"
+    style={
+      Object {
+        "color": "#f1b30a",
+      }
+    }
+    type="MaterialIcons"
+  />
+</ForwardRef>
+`;

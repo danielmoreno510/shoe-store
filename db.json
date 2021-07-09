@@ -1,0 +1,68 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "brand": "Adidas",
+      "reference": "4D Fusio",
+      "price": 300,
+      "sizes": [
+        {"label": "4.5", "value": 4.5, "quantity": 4},
+        {"label": "5", "value": 5, "quantity": 3},
+        {"label": "5.5", "value": 5.5, "quantity": 2},
+        {"label": "6", "value": 6, "quantity": 4},
+        {"label": "6.5", "value": 6.5, "quantity": 4},
+        {"label": "7", "value": 7, "quantity": 5}
+      ],
+      "images": ["fusio1", "fusio2", "fusio3", "fusio4"],
+      "date": "2020-04-26"
+    },
+    {
+      "id": 2,
+      "brand": "Reebok",
+      "reference": "BB4500",
+      "price": 100,
+      "sizes": [
+        {"label": "4.5", "value": 4.5, "quantity": 8},
+        {"label": "5", "value": 5, "quantity": 5},
+        {"label": "5.5", "value": 5.5, "quantity": 1},
+        {"label": "6", "value": 6, "quantity": 9},
+        {"label": "6.5", "value": 6.5, "quantity": 5},
+        {"label": "7", "value": 7, "quantity": 8}
+      ],
+      "images": ["bb45001", "bb45002", "bb45003", "bb45004", "bb45005"],
+      "date": "2021-02-26"
+    },
+    {
+      "id": 3,
+      "brand": "Nike",
+      "reference": "Blazer Low Platform",
+      "price": 200,
+      "sizes": [
+        {"label": "4.5", "value": 4.5, "quantity": 1},
+        {"label": "5", "value": 5, "quantity": 2},
+        {"label": "5.5", "value": 5.5, "quantity": 9},
+        {"label": "6", "value": 6, "quantity": 7},
+        {"label": "6.5", "value": 6.5, "quantity": 5},
+        {"label": "7", "value": 7, "quantity": 4}
+      ],
+      "images": ["blazerLowPlatform1", "blazerLowPlatform2", "blazerLowPlatform3", "blazerLowPlatform4"],
+      "date": "2021-06-01"
+    },
+    {
+      "id": 4,
+      "brand": "Converse",
+      "reference": "Chuck Taylor All Star Classic",
+      "price": 200,
+      "sizes": [
+        {"label": "4.5", "value": 4.5, "quantity": 4},
+        {"label": "5", "value": 5, "quantity": 3},
+        {"label": "5.5", "value": 5.5, "quantity": 2},
+        {"label": "6", "value": 6, "quantity": 4},
+        {"label": "6.5", "value": 6.5, "quantity": 4},
+        {"label": "7", "value": 7, "quantity": 5}
+      ],
+      "images": ["allStar1", "allStar2", "allStar3", "allStar4"],
+      "date": "2018-04-26"
+    }
+  ]
+}

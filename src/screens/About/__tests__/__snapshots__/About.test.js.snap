@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular About 1`] = `
+<ScrollView
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "padding": 37.5,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 28,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Sneaker City
+  </Text>
+  <View
+    style={
+      Object {
+        "padding": 4,
+        "paddingHorizontal": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 24,
+        }
+      }
+    >
+      Technologies
+    </Text>
+    <View
+      style={
+        Object {
+          "padding": 4,
+          "paddingHorizontal": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+          }
+        }
+      >
+        - React Native
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+          }
+        }
+      >
+        - TypeScript
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+          }
+        }
+      >
+        - Redux - Saga
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+          }
+        }
+      >
+        - esLint
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+          }
+        }
+      >
+        - Test (Jest)
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 4,
+        "paddingHorizontal": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 24,
+        }
+      }
+    >
+      Tools
+    </Text>
+    <View
+      style={
+        Object {
+          "padding": 4,
+          "paddingHorizontal": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+          }
+        }
+      >
+        - Reactotron
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+          }
+        }
+      >
+        - Xcode
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+          }
+        }
+      >
+        - Prettier
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+        "paddingTop": 8,
+        "textAlign": "justify",
+      }
+    }
+  >
+    This project has a coverage of 81%
+  </Text>
+  <Image
+    source={
+      Object {
+        "process": [Function],
+      }
+    }
+    style={
+      Object {
+        "height": 250,
+        "marginTop": 20,
+        "width": 675,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+        "paddingTop": 8,
+        "textAlign": "justify",
+      }
+    }
+  >
+    In other projects I have implemented continuous integration processes with implementation within appcenter to download the ios and android builds
+  </Text>
+  <Image
+    source={
+      Object {
+        "process": [Function],
+      }
+    }
+    style={
+      Object {
+        "height": 250,
+        "marginTop": 20,
+        "width": 675,
+      }
+    }
+  />
+  <Image
+    source={
+      Object {
+        "process": [Function],
+      }
+    }
+    style={
+      Object {
+        "height": 250,
+        "marginTop": 20,
+        "width": 675,
+      }
+    }
+  />
+</ScrollView>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoeDetails component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular ShoeDetails 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "padding": 37.5,
+    }
+  }
+>
+  <CustomCarousel
+    shoe={Object {}}
+    width={300}
+  />
+  <ShoeInfo
+    addToCart={[MockFunction]}
+    cart={Array []}
+    shoe={Object {}}
+    twoSection={true}
+  />
+</View>
+`;

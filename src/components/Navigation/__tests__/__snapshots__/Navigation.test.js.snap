@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular Navigation 1`] = `
+<ForwardRef(NavigationContainer)>
+  <ForwardRef(SafeAreaView)
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <StackNavigator
+      headerMode="screen"
+      screenOptions={
+        Object {
+          "headerStyle": Object {
+            "shadowColor": "#f1b30a",
+          },
+          "headerTintColor": "#f1b30a",
+        }
+      }
+    >
+      <Screen
+        component={[Function]}
+        name="Home"
+        options={[Function]}
+      />
+      <Screen
+        component={[Function]}
+        name="Shoes List"
+        options={[Function]}
+      />
+      <Screen
+        component={[Function]}
+        name="Shoe Detail"
+        options={[Function]}
+      />
+      <Screen
+        component={[Function]}
+        name="Cart"
+      />
+      <Screen
+        component={[Function]}
+        name="Pay"
+      />
+      <Screen
+        component={[Function]}
+        name="Menu"
+        options={[Function]}
+      />
+      <Screen
+        component={[Function]}
+        name="About"
+      />
+    </StackNavigator>
+  </ForwardRef(SafeAreaView)>
+</ForwardRef(NavigationContainer)>
+`;

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular Carousel 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "marginBottom": -20,
+    }
+  }
+>
+  <mockConstructor
+    autoplay={true}
+    autoplayDelay={500}
+    autoplayInterval={3000}
+    data={Array []}
+    inactiveSlideOpacity={0.85}
+    itemWidth={180}
+    loop={true}
+    onSnapToItem={[Function]}
+    renderItem={[Function]}
+    sliderWidth={180}
+  />
+  <Component
+    activeDotIndex={0}
+    dotColor="#f1b30a"
+    dotsLength={0}
+    inactiveDotColor="black"
+    inactiveDotOpacity={0.4}
+    inactiveDotScale={0.6}
+  />
+</View>
+`;
+
+exports[`Carousel component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular Carousel 2`] = `
+<Image
+  style={
+    Array [
+      Object {
+        "height": 20,
+        "width": 20,
+      },
+    ]
+  }
+/>
+`;

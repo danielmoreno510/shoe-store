@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCard component GIVEN a set of valid props WHEN the component is rendered with rotate false and call rotateCard function THEN should display a regular CreditCard and call originCard function 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#f1b30a",
+        "borderRadius": 14,
+        "height": 200,
+        "padding": 14,
+        "width": 320,
+      },
+      false,
+      Object {
+        "transform": Array [
+          Object {
+            "rotateY": "0deg",
+          },
+        ],
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "process": [Function],
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 4,
+                "height": 24,
+                "width": 30,
+              }
+            }
+          />
+          <Image
+            source={
+              Object {
+                "process": [Function],
+              }
+            }
+            style={
+              Object {
+                "height": 14,
+                "marginLeft": 4,
+                "width": 24,
+              }
+            }
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontSize": 20,
+            }
+          }
+        >
+          Credit Card
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#ffffff",
+            "fontSize": 26,
+            "marginTop": 22,
+          }
+        }
+      >
+        1234 xxxx xxxx xxxx
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontSize": 18,
+              "marginTop": 18,
+            }
+          }
+        >
+          Daniel
+        </Text>
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 12,
+                "marginTop": 18,
+              }
+            }
+          >
+            Valid thru
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 18,
+                "marginTop": -6,
+                "textAlign": "center",
+              }
+            }
+          >
+            12/14
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CreditCard component GIVEN a set of valid props WHEN the component is rendered with rotate true THEN should display a regular CreditCard 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#f1b30a",
+        "borderRadius": 14,
+        "height": 200,
+        "padding": 14,
+        "width": 320,
+      },
+      Object {
+        "padding": 0,
+        "paddingTop": 14,
+      },
+      Object {
+        "transform": Array [
+          Object {
+            "rotateY": "180deg",
+          },
+        ],
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#000000",
+            "height": 40,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 22,
+            "paddingTop": 12,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 38,
+              "marginLeft": 38,
+              "width": 240,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#cccccc",
+                "height": 2,
+                "marginTop": 6,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#cccccc",
+                "height": 2,
+                "marginTop": 6,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#cccccc",
+                "height": 2,
+                "marginTop": 6,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#cccccc",
+                "height": 2,
+                "marginTop": 6,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 24,
+                "marginRight": 194,
+                "marginTop": -36,
+              },
+              Object {
+                "transform": Array [
+                  Object {
+                    "rotateY": "180deg",
+                  },
+                ],
+              },
+            ]
+          }
+        >
+          123
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular Home 1`] = `
+<ScrollView
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "padding": 37.5,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 28,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Sneaker City
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 18,
+        "paddingTop": 8,
+        "textAlign": "justify",
+      }
+    }
+  >
+    Welcome to Sneaker City, enjoy our shoes
+  </Text>
+  <View
+    style={
+      Object {
+        "marginTop": 40,
+      }
+    }
+  >
+    <CustomButton
+      onPress={[Function]}
+      text="Shoes"
+    />
+  </View>
+</ScrollView>
+`;
